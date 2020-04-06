@@ -1,7 +1,7 @@
 body,h1,h5 {font-family: "Raleway", sans-serif}
 body, html {height: 100%}
 .bgimg {
-  background-image: url('murphy1.jpeg');
+  background-image: url('../images/murphy1.jpeg');
   min-height: 100%;
   filter: blur(2px);
   -webkit-filter: blur(2px);
