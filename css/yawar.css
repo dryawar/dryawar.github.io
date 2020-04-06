@@ -1,0 +1,55 @@
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('murphy1.jpeg');
+  min-height: 100%;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  background-position: center;
+  background-size: cover;
+}
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 65%;
+  padding: 20px;
+  text-align: center;
+}
+.fa {
+  padding: 15px;
+  margin: 6px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+  font-size: 22px;
+  text-decoration: none;
+}
+.fa-instagram {
+  background: linear-gradient(158deg, #1880d4 0%, #b11c1c 35%, #c76d19 85%);
+  color: white;
+}
+.fa-instagram:hover {
+  background: white;
+  color:  orangered;
+}
+.fa-telegram {
+  background: #007bb5;
+  color: white;
+}
+.fa-telegram:hover {
+  background:white;
+  color:  #007bb5;
+}
